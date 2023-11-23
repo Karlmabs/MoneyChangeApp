@@ -1,6 +1,6 @@
 <?php
 
-// Inclure la fonction rendre_monnaie
+// Inclure la fonction make_change
 include 'index.php';
 
 // Fonction de test simple
