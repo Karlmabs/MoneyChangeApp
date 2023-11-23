@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  php-app:
+    build:
+      context: .
+    ports:
+      - "8080:80"
+  php-tests:
+    build:
+      context: .
+    command: ["php", "tests.php"]
